@@ -1,0 +1,215 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+body {
+    font-family: "Lato", sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#search{
+position:absolute;
+left:33%;
+top:33%;
+width:460px;
+height:30px;
+paddind:7px;
+border:1px solid green;
+}
+#submit{
+position:absolute;
+left:66.5%;
+top:33%;
+width:80px;
+height:34px;
+paddind:7px;
+background-color:green;
+border:1px solid green;
+color:white;
+margin-left: -5px;
+}
+.yes{
+background:#818181;
+position:absolute;
+width:100%;
+height:100px;}
+.logo{
+position:absolute;
+top:-38px;
+left:20px;
+}
+.logo1{
+position:absolute;
+top:-80px;
+left:140px;
+}
+.login {
+
+  width: 250px;
+  position: absolute;
+  top: 52%;
+  left: 19%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}.login1{
+
+  width: 250px;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+.login2{
+
+  width: 250px;
+  position: absolute;
+  top: 52%;
+  left: 81%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+h1{
+ color:white;
+}
+.submit{
+   background-color:green ;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.4s linear;
+}
+.login3{
+width: 250px;
+  position: absolute;
+  top: 128%;
+  left: 19%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+.login4{
+width: 250px;
+  position: absolute;
+  top: 128%;
+  left: 50%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+.login5{
+width: 250px;
+  position: absolute;
+  top: 128%;
+  left: 81%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+.cart{
+position:absolute;
+background-color:green;
+top:39%;
+left:90%;
+border:0;
+height:25px;
+width:65px;
+color:white;
+}
+.dropbtn {
+position:relative;
+    background-color: #111;
+    color:#818181;
+    padding: 16px;
+left:15px;
+    font-size: 24px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#111;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+.dropdown-content a:hover {background-color:#818181}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:#111;
+}
+.hi{
+color:#818181;
+font-size:22px;}

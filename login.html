@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title></head>
+<body>
+<style>
+.logo{
+  position: absolute;
+  top: 8%;
+  left: 3%;
+ }
+body{
+padding:200px;
+padding-left:550px;
+padding-right:550px;
+background-color:#818181;
+color: #e7e7e7;   
+}
+.login {
+  width: 250px;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  background: rgba(1,0,0,0.5);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+
+h1{
+ color:white;
+}
+input{
+ width:250px;
+ height:30px;
+}
+.submit{
+   background-color:green ;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.4s linear;
+}
+.register{color:tomato;
+cursor:pointer}
+</style>
+<div class="logo">
+<img src="marketing-wallpaper.jpg" width="1030px" height="600px">
+</div>
+<div class="login">
+<form>
+<h1>Login</h1>
+<input type="email" name="email" placeholder="Email" required ><br><br>
+<input type="password" name="password" id="password" placeholder="Password"required><br><br>
+</form>
+<a href="Home.html"><button class="submit"><b>LOGIN</b></button></a><br>
+<p>Dont have an account?<a class="register" href="register.html">Sign up here</a>
+</div>
+</body>
+</html>
